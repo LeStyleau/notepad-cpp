@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>C:/Users/saz12/Pictures/Icons/DeleteSticky.bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/Copy.bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/Cut.bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/Paste.bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/redo.bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/undo.bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/document_new.bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/floppy_disk.bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/save_as.bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/exit.bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/folder_into.bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/copy(32).bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/cut(32).bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/floppy_disk(32).bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/folder_into(32).bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/paste(32).bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/redo(32).bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/save_as(32).bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/undo(32).bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/document_new(32).bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/exit(32).bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/information(32).bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/font.png</file>
+        <file>C:/Users/saz12/Pictures/Icons/Qt.bmp</file>
+        <file>C:/Users/saz12/Pictures/Icons/help.bmp</file>
+    </qresource>
+</RCC>
