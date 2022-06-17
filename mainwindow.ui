@@ -157,7 +157,7 @@ p, li { white-space: pre-wrap; }
   <action name="actionNew">
    <property name="icon">
     <iconset resource="Ressources.qrc">
-     <normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/document_new(32).bmp</normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/document_new(32).bmp</iconset>
+     <normaloff>:/imgs/imgs/document_new(32).bmp</normaloff>:/imgs/imgs/document_new(32).bmp</iconset>
    </property>
    <property name="text">
     <string>Nouveau</string>
@@ -169,8 +169,8 @@ p, li { white-space: pre-wrap; }
   <action name="actionOpen">
    <property name="icon">
     <iconset resource="Ressources.qrc">
-     <normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/folder_into(32).bmp</normaloff>
-     <normalon>:/imgs/C:/Users/saz12/Pictures/Icons/Open.bmp</normalon>:/imgs/C:/Users/saz12/Pictures/Icons/folder_into(32).bmp</iconset>
+     <normaloff>:/imgs/imgs/folder_into(32).bmp</normaloff>
+     <normalon>:/imgs/C:/Users/saz12/Pictures/Icons/Open.bmp</normalon>:/imgs/imgs/folder_into(32).bmp</iconset>
    </property>
    <property name="text">
     <string>Ouvrir...</string>
@@ -182,8 +182,8 @@ p, li { white-space: pre-wrap; }
   <action name="actionSave_as">
    <property name="icon">
     <iconset resource="Ressources.qrc">
-     <normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/save_as(32).bmp</normaloff>
-     <normalon>:/imgs/C:/Users/saz12/Pictures/Icons/Save.bmp</normalon>:/imgs/C:/Users/saz12/Pictures/Icons/save_as(32).bmp</iconset>
+     <normaloff>:/imgs/imgs/save_as(32).bmp</normaloff>
+     <normalon>:/imgs/C:/Users/saz12/Pictures/Icons/Save.bmp</normalon>:/imgs/imgs/save_as(32).bmp</iconset>
    </property>
    <property name="text">
     <string>Enregistrer sous...</string>
@@ -195,8 +195,8 @@ p, li { white-space: pre-wrap; }
   <action name="actionExit">
    <property name="icon">
     <iconset resource="Ressources.qrc">
-     <normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/exit(32).bmp</normaloff>
-     <normalon>:/imgs/C:/Users/saz12/Pictures/Icons/door_exit.bmp</normalon>:/imgs/C:/Users/saz12/Pictures/Icons/exit(32).bmp</iconset>
+     <normaloff>:/imgs/imgs/exit(32).bmp</normaloff>
+     <normalon>:/imgs/C:/Users/saz12/Pictures/Icons/door_exit.bmp</normalon>:/imgs/imgs/exit(32).bmp</iconset>
    </property>
    <property name="text">
     <string>Quitter</string>
@@ -205,7 +205,7 @@ p, li { white-space: pre-wrap; }
   <action name="actionSave">
    <property name="icon">
     <iconset resource="Ressources.qrc">
-     <normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/floppy_disk(32).bmp</normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/floppy_disk(32).bmp</iconset>
+     <normaloff>:/imgs/imgs/floppy_disk(32).bmp</normaloff>:/imgs/imgs/floppy_disk(32).bmp</iconset>
    </property>
    <property name="text">
     <string>Enregistrer</string>
@@ -217,8 +217,8 @@ p, li { white-space: pre-wrap; }
   <action name="actionCopy">
    <property name="icon">
     <iconset resource="Ressources.qrc">
-     <normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/copy(32).bmp</normaloff>
-     <normalon>:/imgs/C:/Users/saz12/Pictures/Icons/Copy.bmp</normalon>:/imgs/C:/Users/saz12/Pictures/Icons/copy(32).bmp</iconset>
+     <normaloff>:/imgs/imgs/copy(32).bmp</normaloff>
+     <normalon>:/imgs/C:/Users/saz12/Pictures/Icons/Copy.bmp</normalon>:/imgs/imgs/copy(32).bmp</iconset>
    </property>
    <property name="text">
     <string>Copier</string>
@@ -230,8 +230,8 @@ p, li { white-space: pre-wrap; }
   <action name="actionPaste">
    <property name="icon">
     <iconset resource="Ressources.qrc">
-     <normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/paste(32).bmp</normaloff>
-     <normalon>:/imgs/C:/Users/saz12/Pictures/Icons/Paste.bmp</normalon>:/imgs/C:/Users/saz12/Pictures/Icons/paste(32).bmp</iconset>
+     <normaloff>:/imgs/imgs/paste(32).bmp</normaloff>
+     <normalon>:/imgs/C:/Users/saz12/Pictures/Icons/Paste.bmp</normalon>:/imgs/imgs/paste(32).bmp</iconset>
    </property>
    <property name="text">
     <string>Coller</string>
@@ -243,8 +243,8 @@ p, li { white-space: pre-wrap; }
   <action name="actionCut">
    <property name="icon">
     <iconset resource="Ressources.qrc">
-     <normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/cut(32).bmp</normaloff>
-     <normalon>:/imgs/C:/Users/saz12/Pictures/Icons/Cut.bmp</normalon>:/imgs/C:/Users/saz12/Pictures/Icons/cut(32).bmp</iconset>
+     <normaloff>:/imgs/imgs/cut(32).bmp</normaloff>
+     <normalon>:/imgs/C:/Users/saz12/Pictures/Icons/Cut.bmp</normalon>:/imgs/imgs/cut(32).bmp</iconset>
    </property>
    <property name="text">
     <string>Couper</string>
@@ -256,7 +256,7 @@ p, li { white-space: pre-wrap; }
   <action name="actionUndo">
    <property name="icon">
     <iconset resource="Ressources.qrc">
-     <normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/undo(32).bmp</normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/undo(32).bmp</iconset>
+     <normaloff>:/imgs/imgs/undo(32).bmp</normaloff>:/imgs/imgs/undo(32).bmp</iconset>
    </property>
    <property name="text">
     <string>Annuler</string>
@@ -268,7 +268,7 @@ p, li { white-space: pre-wrap; }
   <action name="actionRedo">
    <property name="icon">
     <iconset resource="Ressources.qrc">
-     <normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/redo(32).bmp</normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/redo(32).bmp</iconset>
+     <normaloff>:/imgs/imgs/redo(32).bmp</normaloff>:/imgs/imgs/redo(32).bmp</iconset>
    </property>
    <property name="text">
     <string>Rétablir</string>
@@ -280,7 +280,7 @@ p, li { white-space: pre-wrap; }
   <action name="actionInfo">
    <property name="icon">
     <iconset resource="Ressources.qrc">
-     <normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/information(32).bmp</normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/information(32).bmp</iconset>
+     <normaloff>:/imgs/imgs/information(32).bmp</normaloff>:/imgs/imgs/information(32).bmp</iconset>
    </property>
    <property name="text">
     <string>À propos de Lestyleau-Notepad</string>
@@ -290,6 +290,10 @@ p, li { white-space: pre-wrap; }
    </property>
   </action>
   <action name="actionTips">
+   <property name="icon">
+    <iconset resource="Ressources.qrc">
+     <normaloff>:/imgs/imgs/help.bmp</normaloff>:/imgs/imgs/help.bmp</iconset>
+   </property>
    <property name="text">
     <string>Tips</string>
    </property>
@@ -315,7 +319,7 @@ p, li { white-space: pre-wrap; }
   <action name="actionQt">
    <property name="icon">
     <iconset resource="Ressources.qrc">
-     <normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/Qt.bmp</normaloff>:/imgs/C:/Users/saz12/Pictures/Icons/Qt.bmp</iconset>
+     <normaloff>:/imgs/imgs/Qt.bmp</normaloff>:/imgs/imgs/Qt.bmp</iconset>
    </property>
    <property name="text">
     <string>À propos de Qt</string>
