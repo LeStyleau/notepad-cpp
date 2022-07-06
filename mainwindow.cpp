@@ -20,7 +20,7 @@ MainWindow::MainWindow(QWidget *parent)
     currentFile.clear();
     ui->textEdit->setText(QString());
     setWindowTitle("Nouveau fichier");
-    connect(ui->textEdit, SIGNAL(cursorPositionChanged()), this, SLOT(showCursorPos()));
+    //connect(ui->textEdit, &QTextEdit::cursorPositionChanged, this, &MainWindow::showCursorPos);
 }
 
 void MainWindow::showCursorPos()
@@ -94,7 +94,8 @@ void MainWindow::on_actionSave_as_triggered()
         out << text;
         // Close the file
         file.close();
-        QMessageBox::about(this, "Sauvegarde", "le fichier à été sauvegarder sous " + fileName);
+        //QMessageBox::about(this, "Sauvegarde", "le fichier à été sauvegarder sous " + fileName);
+        ui->statusbar->showMessage(QString("Sauvegarder sous " + fileName));
 }
 
 void MainWindow::on_actionSave_triggered() // save
@@ -119,6 +120,7 @@ void MainWindow::on_actionSave_triggered() // save
     QString text = ui->textEdit->toPlainText();
     out << text;
     file.close();
+    ui->statusbar->showMessage(QString("Sauvegarder sous " + fileName));
 }
 
 //QDesktopServices::openUrl(QUrl::fromLocalFile("<path_to_your_file>"));
@@ -171,7 +173,7 @@ void MainWindow::on_actionFont_triggered()
 void MainWindow::on_actionAlways_on_top_triggered(bool checked) // always on top
 {
     Qt::WindowFlags flags = this->windowFlags();
-    if(checked)
+    if(checked) //
     {
         this->setWindowFlags(flags | (Qt::WindowStaysOnTopHint));
         this->show();
@@ -198,4 +200,3 @@ void MainWindow::on_actionAide_triggered()
 {
     QMessageBox::warning(this,"","");
 }
-
